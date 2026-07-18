@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kreonix Studios — Videographer & Photographer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Playfair+Display:ital@1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+        <img src="images/logo.png" alt="Kreonix Studios" class="logo-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <!-- <li><a href="#clients">Clients</a></li> -->
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose" aria-label="Close menu">&times;</button>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#work">Work</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="reveal in-view">
+      <span class="eyebrow">Videographer &amp; Photographer</span>
+      <h1>Stories<br>in Motion</h1>
+      <div class="hero-rule"></div>
+      <p class="lede">Cinematic videos. Timeless photographs. Real moments, captured for good.</p>
+      <div class="hero-cta-row">
+        <a href="#work" class="btn gold">View My Work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="hero-tag">Let's create something</div>
+      <div class="hero-script">Unforgettable.</div>
+    </div>
+    <div class="hero-media reveal in-view">
+      <img src="images/videographer_hero.jpeg" alt="Cinema camera rig set up for a shoot">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED WORK ============ -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="justify-content:center;">Featured Work</span>
+      <h2>Selected Work</h2>
+      <span class="underline"></span>
+    </div>
+
+    <div class="tabs reveal">
+      <button class="tab-btn active" data-tab="video">Videography</button>
+      <button class="tab-btn" data-tab="photo">Photography</button>
+    </div>
+
+    <!-- VIDEOGRAPHY PANEL -->
+    <div class="panel active" data-panel="video">
+      <div class="video-grid">
+
+        <div class="video-card reveal" data-video-title="D&rsquo; Bros Barber Shop Commercial" data-video-year="2026"
+          data-video-src="videos/vid_1.mp4">
+          <div class="video-thumb">
+            <img src="images/vid_thumbnail_1.png" alt="D&rsquo; Bros Barber Shop Commercial">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <h3>D&rsquo; Bros Barber Shop Commercial</h3><div class="yr">2026</div>
+        </div>
+
+        <div class="video-card reveal" data-video-title="CM Beauty Lounge Commercial" data-video-year="2026"
+          data-video-src="videos/vid_2.mp4">
+          <div class="video-thumb">
+            <img src="images/vid_thumbnail_2.png" alt="CM Beauty Lounge Commercial">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <h3>CM Beauty Lounge Commercial</h3><div class="yr">2026</div>
+        </div>
+
+        <div class="video-card reveal" data-video-title="Grind Zone Fitness Gym Promotional" data-video-year="2026"
+          data-video-src="videos/vid_3.mp4">
+          <div class="video-thumb">
+            <img src="images/vid_thumbnail_3.png" alt="Grind Zone Fitness Gym Promotional">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <h3>Grind Zone Fitness Gym Promotional</h3><div class="yr">2026</div>
+        </div>
+
+        <div class="video-card reveal" data-video-title="Wedding Same Day Edit" data-video-year="2026"
+          data-video-src="videos/vid_4.mp4">
+          <div class="video-thumb">
+            <img src="images/vid_thumbnail_4.png" alt="Wedding Same Day Edit">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <h3>Wedding Same Day Edit</h3><div class="yr">2026</div>
+        </div>
+
+        <div class="video-card reveal" data-video-title="Birthday Highlights" data-video-year="2026"
+          data-video-src="videos/vid_5.mp4">
+          <div class="video-thumb">
+            <img src="images/vid_thumbnail_5.png" alt="Birthday Highlights">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <h3>Birthday Highlights</h3><div class="yr">2026</div>
+        </div>
+
+        <div class="video-card reveal" data-video-title="Short Film" data-video-year="2026"
+          data-video-src="videos/vid_6.mp4">
+          <div class="video-thumb">
+            <img src="images/vid_thumbnail_6.png" alt="Short Film">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+          <h3>Short Film</h3><div class="yr">2026</div>
+        </div>
+
+      </div>
+      <!-- <div class="view-all"><a href="#" class="btn">View All Films
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a></div> -->
+    </div>
+
+    <!-- PHOTOGRAPHY PANEL -->
+    <div class="panel" data-panel="photo">
+
+      <div class="event-block reveal">
+        <div class="event-head"><h3>Side A Concert</h3><span class="yr">2025</span></div>
+        <div class="photo-mosaic">
+          <figure class="large"><img src="images/photography_panel/concert_1.jpg" alt="Side A Concert"></figure>
+          <figure><img src="images/photography_panel/concert_2.jpg" alt="Side A Concert"></figure>
+          <figure><img src="images/photography_panel/concert_3.jpg" alt="Side A Concert"></figure>
+          <figure class="tall"><img src="images/photography_panel/concert_4.jpg" alt="Side A Concert"></figure>
+          <figure><img src="images/photography_panel/concert_5.jpg" alt="Side A Concert"></figure>
+        </div>
+      </div>
+
+      <div class="event-block reveal">
+        <div class="event-head"><h3>Pre Birthday Photoshoot</h3><span class="yr">2025</span></div>
+        <div class="photo-mosaic">
+          <figure class="large"><img src="images/birthday/birthday_1.jpg" alt="Pre Birthday Photoshoot"></figure>
+          <figure><img src="images/birthday/birthday_2.jpg" alt="Pre Birthday Photoshoot"></figure>
+          <figure><img src="images/birthday/birthday_3.jpg" alt="Pre Birthday Photoshoot"></figure>
+          <figure class="tall"><img src="images/birthday/birthday_4.jpg" alt="Pre Birthday Photoshoot"></figure>
+          <figure><img src="images/birthday/birthday_5.jpg" alt="Pre Birthday Photoshoot"></figure>
+        </div>
+      </div>
+
+      <div class="event-block reveal">
+        <div class="event-head"><h3>Fitness Gym Photoshoot</h3><span class="yr">2026</span></div>
+        <div class="photo-mosaic">
+          <figure class="large"><img src="images/fitness/fitness_1.jpg" alt="Fitness Gym Photoshoot"></figure>
+          <figure><img src="images/fitness/fitness_2.jpg" alt="Fitness Gym Photoshoot"></figure>
+          <figure><img src="images/fitness/fitness_3.jpg" alt="Fitness Gym Photoshoot"></figure>
+          <figure class="tall"><img src="images/fitness/fitness_4.jpg" alt="Fitness Gym Photoshoot"></figure>
+          <figure><img src="images/fitness/fitness_5.jpg" alt="Fitness Gym Photoshoot"></figure>
+        </div>
+      </div>
+
+      <div class="event-block reveal">
+        <div class="event-head"><h3>Prenup</h3><span class="yr">2026</span></div>
+        <div class="photo-mosaic">
+          <figure class="large"><img src="images/prenup/prenup_1.jpg" alt="Prenup"></figure>
+          <figure><img src="images/prenup/prenup_2.jpg" alt="Prenup"></figure>
+          <figure><img src="images/prenup/prenup_4.jpg" alt="Prenup"></figure>
+          <figure class="tall"><img src="images/prenup/prenup_3.jpg" alt="Prenup"></figure>
+          <figure><img src="images/prenup/prenup_5.jpg" alt="Prenup"></figure>
+        </div>
+      </div>
+
+      <!-- <div class="view-all"><a href="#" class="btn">View All Photos
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a></div> -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-media reveal">
+      <img src="images/about_me.jpg" alt="Kreonix Studios videographer and photographer Iman">
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">About Me</span>
+      <h2>Hi, I'm Iman</h2>
+      <p class="lede">A passionate videographer and photographer with a love for storytelling through visuals. I've worked on a variety of projects, from weddings and events to brand films and documentaries. My goal is to create work that connects and leaves a lasting impression.</p>
+      <div class="stat-row">
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          <div class="num">5+</div><div class="label">Years Experience</div>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7l4-3h8l4 3v3l-4 2 4 2v3l-4 3H8l-4-3v-3l4-2-4-2z"/></svg>
+          <div class="num">150+</div><div class="label">Projects Done</div>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15.5 14.3c2.6.3 4.5 2.4 4.5 5.2"/></svg>
+          <div class="num">80+</div><div class="label">Happy Clients</div>
+        </div>
+        <div class="stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5L7 21l5-2.5L17 21l-1.5-8.5"/></svg>
+          <div class="num">10+</div><div class="label">Awards</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="justify-content:center;">What I Do</span>
+      <h2>Services</h2>
+      <span class="underline"></span>
+    </div>
+    <div class="service-grid">
+      <div class="service reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="6" width="14" height="12" rx="1"/><path d="M16 10l6-3v10l-6-3z"/></svg>
+        <h3>Videography</h3><p>High-quality video production for any occasion.</p>
+      </div>
+      <div class="service reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 011 1v10a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="14" r="3.5"/></svg>
+        <h3>Photography</h3><p>Timeless stills that capture real, honest moments.</p>
+      </div>
+      <div class="service reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4" width="18" height="14" rx="1"/><path d="M3 9h18M9 4L6 9M15 4l-3 5"/></svg>
+        <h3>Video Editing</h3><p>Professional editing that brings your story to life.</p>
+      </div>
+      <div class="service reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="6" r="2.3"/><circle cx="18" cy="6" r="2.3"/><circle cx="6" cy="18" r="2.3"/><circle cx="18" cy="18" r="2.3"/><path d="M8 7l3 3M16 7l-3 3M8 17l3-3M16 17l-3-3"/><circle cx="12" cy="12" r="1.6"/></svg>
+        <h3>Drone Footage</h3><p>Stunning aerial shots for a unique perspective.</p>
+      </div>
+      <div class="service reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M8 20h8M12 16v4"/><circle cx="12" cy="10" r="3"/></svg>
+        <h3>Color Grading</h3><p>Cinematic color correction and grading.</p>
+      </div>
+      <div class="service reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 11l14-6v14L3 13z"/><path d="M17 9l4-1v8l-4-1"/><path d="M7 14v4a2 2 0 002 2h1"/></svg>
+        <h3>Brand Films</h3><p>Engaging videos that elevate your brand and message.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLIENTS STRIP ============
+<section class="clients" id="clients">
+  <div class="container clients-inner">
+    <span class="tag reveal">Trusted By</span>
+    <div class="client-names reveal">
+      <span>Aurum</span><span>Northpeak Studios</span><span>Wander Co.</span><span>Lumen Brands</span><span>Silverline Films</span>
+    </div>
+  </div>
+</section> -->
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact-bg"><img src="https://picsum.photos/seed/dylanbeach/1800/1200" alt="Silhouette on a coastline at golden hour"></div>
+  <div class="contact-inner">
+    <div class="contact-left reveal">
+      <span class="eyebrow">Let's Work Together</span>
+      <h2>Have a Project<br>in Mind?</h2>
+      <p>Tell me about your event, brand, or story — I'll get back to you within 24 hours.</p>
+      <ul class="contact-info">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18v12H3z"/><path d="M3 6l9 7 9-7"/></svg> hello@testing.com</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h4l2 5-2.5 1.5a12 12 0 006 6L15 14l5 2v4c0 1-1 2-2 2C9.5 22 2 14.5 2 6c0-1 1-2 2-2z"/></svg> +63 912 345 6789</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.5 7-11.5A7 7 0 105 9.5C5 14.5 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/></svg> Manila, Philippines</li>
+      </ul>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="6" width="20" height="12" rx="3"/><path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="Vimeo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 7.5c-2 0-3 1.5-4.5 5-1 2.5-1.7 4-2.4 4-1 0-1.7-3-2.2-5.5-.5-2.5-1-4.5-3-4.5-1.2 0-2.7 1-4.2 2.8l.8.9c.6-.5 1.2-.9 1.6-.9.8 0 1 1 1.6 3.2.8 3 1.7 6.3 4 6.3 2 0 3.4-2.4 5-6 1-2.4 1.5-3.5 2.4-3.5.5 0 .9.5.9.5z"/></svg></a>
+      </div>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="form-status" id="formStatus"></div>
+      <div class="form-row">
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required placeholder="Your full name">
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required placeholder="you@email.com">
+        </div>
+      </div>
+      <div class="field">
+        <label for="cf-type">Project Type</label>
+        <select id="cf-type" name="projectType">
+          <option>Wedding</option>
+          <option>Event Coverage</option>
+          <option>Brand / Commercial</option>
+          <option>Music Video</option>
+          <option>Photography Session</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" required placeholder="Tell me a bit about your project, date, and location..."></textarea>
+      </div>
+      <button type="submit" class="btn solid submit-btn">Send Message
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+      <p class="form-note">
+        <!-- DEV NOTE: this form is UI-only for now. To actually deliver emails, either:
+             1) Add a Formspree/Getform action + point the <form> action="https://formspree.io/f/XXXX" method="POST" (remove JS preventDefault), or
+             2) Call your own API endpoint from submitContactForm() below with fetch(), or
+             3) Use EmailJS client-side (emailjs.send(...)) inside submitContactForm(). -->
+        I'll never share your info. Response within 24 hours.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; 2026 Kreonix Studios. All Rights Reserved.</span>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#home" class="back-top">Back to Top
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </a>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <div class="lightbox-inner">
+    <div id="lightboxMedia"></div>
+    <div class="lightbox-cap" id="lightboxCap"></div>
+  </div>
+</div>
+
+<script>
+  // ---------- Mobile menu ----------
+  const burgerBtn = document.getElementById('burgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const mobileClose = document.getElementById('mobileClose');
+  burgerBtn.addEventListener('click', () => mobileMenu.classList.add('open'));
+  mobileClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+  // ---------- Active nav link on scroll ----------
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const onScrollNav = () => {
+    let current = sections[0].id;
+    sections.forEach(sec => {
+      if (window.scrollY >= sec.offsetTop - 140) current = sec.id;
+    });
+    navLinks.forEach(link => {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+    });
+  };
+  window.addEventListener('scroll', onScrollNav);
+
+  // ---------- Tabs: Videography / Photography ----------
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  const panels = document.querySelectorAll('.panel');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelector('.panel[data-panel="' + btn.dataset.tab + '"]').classList.add('active');
+    });
+  });
+
+  // ---------- Reveal on scroll ----------
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('in-view'); });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  // ---------- Lightbox ----------
+  const lightbox = document.getElementById('lightbox');
+  const lightboxMedia = document.getElementById('lightboxMedia');
+  const lightboxCap = document.getElementById('lightboxCap');
+  const lightboxClose = document.getElementById('lightboxClose');
+
+  function openLightbox(html, caption){
+    lightboxMedia.innerHTML = html;
+    lightboxCap.textContent = caption || '';
+    lightbox.classList.add('open');
+  }
+  function closeLightbox(){
+    lightbox.classList.remove('open');
+    lightboxMedia.innerHTML = '';
+  }
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+
+  // Photo mosaics -> lightbox
+  document.querySelectorAll('.photo-mosaic figure img').forEach(img => {
+    img.addEventListener('click', () => {
+      openLightbox('<img src="' + img.src.replace(/\/\d+\/\d+$/, '/1600/1100') + '" alt="' + img.alt + '">', img.alt);
+    });
+  });
+
+  // Video cards -> lightbox (local video player)
+  document.querySelectorAll('.video-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const title = card.dataset.videoTitle;
+      const year = card.dataset.videoYear;
+      const localSrc = card.dataset.videoSrc;
+
+      openLightbox(
+        '<video src="' + localSrc + '" controls autoplay playsinline></video>',
+        title + ' — ' + year
+      );
+    });
+  });
+
+  // ---------- Contact form (UI only — see DEV NOTE in the markup) ----------
+  const contactForm = document.getElementById('contactForm');
+  const formStatus = document.getElementById('formStatus');
+
+  function submitContactForm(data){
+    // Placeholder "send": swap this out for a real fetch() call to your
+    // form backend (Formspree/Getform/EmailJS/your own API) when ready.
+    return new Promise(resolve => setTimeout(() => resolve({ ok: true }), 700));
+  }
+
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const name = document.getElementById('cf-name').value.trim();
+    const email = document.getElementById('cf-email').value.trim();
+    const message = document.getElementById('cf-message').value.trim();
+
+    if (!name || !email || !message) {
+      formStatus.textContent = 'Please fill in your name, email, and message.';
+      formStatus.classList.add('show');
+      return;
+    }
+
+    const submitBtn = contactForm.querySelector('.submit-btn');
+    submitBtn.style.opacity = '0.6';
+    formStatus.textContent = 'Sending...';
+    formStatus.classList.add('show');
+
+    const result = await submitContactForm({
+      name, email,
+      projectType: document.getElementById('cf-type').value,
+      message
+    });
+
+    submitBtn.style.opacity = '1';
+    if (result.ok) {
+      formStatus.textContent = "Thanks, " + name + "! Your message has been received — I'll reply within 24 hours.";
+      contactForm.reset();
+    } else {
+      formStatus.textContent = 'Something went wrong. Please try again or email hello@testing.com directly.';
+    }
+  });
+</script>
+</body>
+</html>
