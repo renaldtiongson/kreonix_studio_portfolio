@@ -84,7 +84,7 @@
   }
 
   .logo-img {
-      height: 110px;        /* can now be bigger than the bar itself */
+      height: 40px;        /* can now be bigger than the bar itself */
       width: auto;
       display: block;
       filter: brightness(0) invert(1);
