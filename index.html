@@ -44,6 +44,9 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero" id="home">
+  <video autoplay muted loop playsinline class="bg-video">
+      <source src="videos/bg_vid.mp4" type="video/mp4">
+  </video>
   <div class="hero-inner">
     <div class="reveal in-view">
       <span class="eyebrow">Videographer &amp; Photographer</span>
@@ -57,9 +60,6 @@
       </div>
       <div class="hero-tag">Let's create something</div>
       <div class="hero-script">Unforgettable.</div>
-    </div>
-    <div class="hero-media reveal in-view">
-      <img src="images/logo2.png" alt="KREONIX STUDIOS" class="hero-img">
     </div>
   </div>
 </section>
@@ -418,6 +418,7 @@
   // ---------- Active nav link on scroll ----------
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
+  const navEl = document.querySelector('.nav');
   const onScrollNav = () => {
     let current = sections[0].id;
     sections.forEach(sec => {
@@ -426,8 +427,11 @@
     navLinks.forEach(link => {
       link.classList.toggle('active', link.getAttribute('href') === '#' + current);
     });
+
+    // Show nav once user scrolls past a threshold
+    navEl.classList.toggle('nav-visible', window.scrollY > 80);
   };
-  window.addEventListener('scroll', onScrollNav);
+  window.addEventListener('scroll', onScrollNav)
 
   // ---------- Tabs: Videography / Photography ----------
   const tabBtns = document.querySelectorAll('.tab-btn');
